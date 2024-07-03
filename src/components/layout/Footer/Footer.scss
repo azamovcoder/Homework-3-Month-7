@@ -1,0 +1,32 @@
+.footer {
+  background: #e9f7fe;
+  &__container {
+    border-top: 1px solid rgb(231, 230, 230);
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    &__info {
+      p {
+        padding-top: 20px;
+        max-width: 290px;
+      }
+    }
+    &__list {
+      h4 {
+        padding-bottom: 15px;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  &__bottom {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
